@@ -1,0 +1,24 @@
+$dark-blue: #2F384B;
+$white: #fff;
+$black: #000;
+$grey: #8d8c8c;
+$orange: #f47721;
+
+
+.main-content{
+  background: url("http://www.pixelstalk.net/wp-content/uploads/2016/08/Free-hd-dark-wallpaper-download.jpg") no-repeat center center fixed;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.header-main {
+  font-size: 125px;
+  color: white;
+  padding: 0.3em;
+}
+.thumbnail {
+  padding: 25px;
+  border-radius: 0px;
+}
+.a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+  border-color: $white;
+}
